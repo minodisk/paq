@@ -1,0 +1,24 @@
+{
+  "name"        : "paq",
+  "version"     : "0.0.1",
+  "description" : "JavaScript project builder. Generates annotated source, api documents and run test, when something is changed in project.",
+  "tags"        : ["watch", "compile", "compress", "minify", "concatenate"],
+  "author"      : {
+    "name" : "Daisuke Mino",
+    "email": "daisuke.mino@gmail.com"
+  },
+  "repository"  : {
+    "type": "git",
+    "url" : "https://github.com/minodisk/paq.git"
+  },
+  "engines"     : {
+    "node": ">=0.8.14"
+  },
+  "license"     : "MIT",
+  "dependencies": {
+  },
+  "bin"         : {
+    "paq": "./bin/paq"
+  },
+  "main"        : "./lib/paq"
+}
